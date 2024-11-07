@@ -3,8 +3,38 @@
    height: 100px;
    width: 100px;
    padding: 10px;
-   position: relative;
+   /*position: relative;
    top: 30px;
-   left: 100px;
+   left: 100px; */
+   /*position: absolute; */
+
+   /*position: sticky; */
+
+   /*position: static; */
+   top: 10px;
+   left: 50px;
+   
+   z-index: -1; /*Changing the Content Layers */
+   /*
+   margin-top: 100px;
+   margin-left: 50px; */
+
+   /* position: fixed; */
+
+}
+
+.link{
+background-color: blue;
+color: white;
+padding: 20px;
+text-decoration: none;
+
+}
+
+.link:hover{
+    background-color: brown;
+    font-size: larger;
+    font-weight: bolder;
+
 
 }
